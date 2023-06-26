@@ -138,8 +138,8 @@ void display() {
     glTranslatef(0.9, 0.9, 0.9);
     
     // Rotate to the correct amgles
-    glRotatef(0, 0.0, 0.0, 0.0); // yaw, y axis
-    glRotatef(5, 8.0, 0.0, 0.0); // pitch, x axis
+    glRotatef(rotate_x, 1.0, 0.0, 0.0); // yaw, y axis
+    glRotatef(rotate_y, 0.0, 1.0, 0.0); // pitch, x axis
     glRotatef(0, 0.0, 0.0, 1.0); // roll, z axis
 
     // scale to desired dimensions
